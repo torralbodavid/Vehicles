@@ -1,4 +1,4 @@
-package cat.torralbo.poo;
+package cat.davidtorralbo.poo;
 
 public class Main {
 

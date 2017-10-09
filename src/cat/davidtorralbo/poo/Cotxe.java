@@ -1,4 +1,4 @@
-package cat.torralbo.poo;
+package cat.davidtorralbo.poo;
 
 /**
  * Creat per davidtorralbo el 8/10/17.
@@ -74,11 +74,11 @@ class Cotxe {
      */
     void avanca(){
 
-            try {
-                setPassos(getPassos() + getVelocitat());
-            } catch (Exception e){
-                System.err.println(e.getMessage());
-            }
+        try {
+            setPassos(getPassos() + getVelocitat());
+        } catch (Exception e){
+            System.err.println(e.getMessage());
+        }
 
     }
 }

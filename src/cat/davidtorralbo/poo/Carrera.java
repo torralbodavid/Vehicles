@@ -1,4 +1,4 @@
-package cat.torralbo.poo;
+package cat.davidtorralbo.poo;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -56,13 +56,13 @@ class Carrera {
     private static int nombreTipus(int tipus, int limit){
         int nombreTipus = 0, i = 0;
 
-            for (Cotxe x : participants) {
-                if(x.getId() == tipus && limit >= i){
-                    nombreTipus++;
-                }
-
-                i++;
+        for (Cotxe x : participants) {
+            if(x.getId() == tipus && limit >= i){
+                nombreTipus++;
             }
+
+            i++;
+        }
         return nombreTipus;
     }
 
